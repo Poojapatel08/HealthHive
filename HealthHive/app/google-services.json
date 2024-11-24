@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "947425543583",
+    "project_id": "healthhive5",
+    "storage_bucket": "healthhive5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947425543583:android:5402ecd9eab712a07229aa",
+        "android_client_info": {
+          "package_name": "com.example.healthhive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "947425543583-v2urq6l60t6at52k15nf46dasdump690.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthhive",
+            "certificate_hash": "3393cdb72ba8a7b3d97dd32a98b2de1004484f07"
+          }
+        },
+        {
+          "client_id": "947425543583-16ekmuvrncd43051tp7lq7vtrpk3hjag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXF1qpqDzvVNFwSoID1FebvbmOaCbyBso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "947425543583-16ekmuvrncd43051tp7lq7vtrpk3hjag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
