@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/light_blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo1</item> <!-- Set your logo here -->
+        <item name="postSplashScreenTheme">@style/Theme.HealthHive</item>
+
+
+    </style>
+
+
+    <style name="Theme.HealthHive" parent="android:Theme.Material.Light.NoActionBar" />
+
+
+
+    
+</resources>
