@@ -38,7 +38,7 @@ fun HomeScreen(navController: NavController) {
 
     if (isLoading) {
         Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-            CircularProgressIndicator()
+        CircularProgressIndicator()
         }
     } else {
         if (isNewUser) {
