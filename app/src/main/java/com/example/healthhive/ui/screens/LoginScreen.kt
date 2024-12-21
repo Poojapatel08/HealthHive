@@ -87,7 +87,7 @@ fun LoginScreen(onLoginSuccess: () -> Unit, onSignUp: () -> Unit) {
     Box(modifier = Modifier.fillMaxSize()) {
         Image(
             painter = painterResource(id = R.drawable.logo_background1),
-            contentDescription = "Login Background",
+            contentDescription = ,
             modifier = Modifier.fillMaxSize(),
             contentScale = ContentScale.Crop
         )
