@@ -69,7 +69,7 @@ fun SignUpScreen(onSignUpSuccess: () -> Unit, navController: NavHostController) 
         OutlinedTextField(
             value = email,
             onValueChange = { email = it },
-            label = { Text("Email") },
+
             modifier = Modifier.fillMaxWidth(),
             keyboardOptions = KeyboardOptions(
                 keyboardType = KeyboardType.Email,
