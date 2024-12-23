@@ -59,12 +59,7 @@ fun OrdersScreen(navController: NavController, ordersViewModel: OrdersViewModel 
                         modifier = Modifier.align(Alignment.CenterHorizontally)
                     )
                 } else {
-                    LazyColumn(
-                        modifier = Modifier.weight(1f),
-                        verticalArrangement = Arrangement.spacedBy(8.dp)
-                    ) {
-                        items(orders) { order ->
-                            OrderCard1(order)
+
                         }
                     }
                 }
