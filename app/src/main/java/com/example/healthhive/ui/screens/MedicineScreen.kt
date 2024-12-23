@@ -53,7 +53,7 @@ fun MedicineScreen(
                             imageVector = Icons.Default.ShoppingCart,
                             contentDescription = "Cart")
                     }
-                    IconButton(onClick = { navController.navigate("orders") }) {
+
                         Icon(
                             imageVector = Icons.Default.List,
                             contentDescription = "Orders")
