@@ -85,15 +85,7 @@ fun AppointmentScreen(
                 }
 
                 // Search Bar
-                OutlinedTextField(
-                    value = searchQuery,
-                    onValueChange = { searchQuery = it },
-                    label = { Text("Search doctors or specialties") },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(bottom = 16.dp),
-                    maxLines = 1,
-                    singleLine = true
+
                 )
 
                 // Specialty Filter Row
