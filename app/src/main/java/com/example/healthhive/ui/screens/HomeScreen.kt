@@ -123,14 +123,7 @@ fun ReturningUserScreen(
     appointments: List<Appointment>,
 
     ) {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .verticalScroll(rememberScrollState())
-            .background(
-                Brush.verticalGradient(
-                    colors = listOf(Color(0xFF2196F3), Color.White), startY = 0f, endY = 1500f
-                )
+
             )
     ) {
         // Header Section
