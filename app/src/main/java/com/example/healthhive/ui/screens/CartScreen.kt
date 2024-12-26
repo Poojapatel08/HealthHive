@@ -74,15 +74,7 @@ fun CartScreen(navController: NavController, cartViewModel: CartViewModel = view
                 }
             }
 
-            OutlinedTextField(
-                value = deliveryAddress,
-                onValueChange = { deliveryAddress = it },
-                label = { Text("Enter Delivery Address") },
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(bottom = 16.dp),
-                maxLines = 1,
-                singleLine = true
+
             )
 
             Spacer(modifier = Modifier.height(16.dp))
