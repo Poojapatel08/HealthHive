@@ -40,8 +40,6 @@ fun MainNavHost(
                 navController.navigate(Destinations.SIGN_UP)
             })
         }
-        composable(Destinations.HOME) {
-            HomeScreen(navController = navController)
 
         }
         composable(Destinations.APPOINTMENT) {
