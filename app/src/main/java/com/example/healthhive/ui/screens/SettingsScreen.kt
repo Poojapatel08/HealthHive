@@ -124,11 +124,7 @@ fun NotificationToggleSection(
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.onSurface
                 )
-                Text(
-                    text = "Receive reminders and updates",
-                    style = MaterialTheme.typography.bodySmall,
-                    color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.7f)
-                )
+
             }
             Switch(
                 checked = notificationsEnabled,
