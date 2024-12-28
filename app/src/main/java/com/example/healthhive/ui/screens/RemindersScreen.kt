@@ -108,11 +108,7 @@ fun ReminderTypeDialog(onDismiss: () -> Unit, onSelectType: (String) -> Unit) {
                     .fillMaxWidth()
                     .padding(horizontal = 16.dp)
             ) {
-                Button(
-                    onClick = { onSelectType("Appointment") },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 4.dp)
+
                 ) {
                     Text("Appointment")
                 }
