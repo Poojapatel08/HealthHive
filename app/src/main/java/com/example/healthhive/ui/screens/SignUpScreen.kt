@@ -69,7 +69,7 @@ fun SignUpScreen(onSignUpSuccess: () -> Unit, navController: NavHostController) 
         OutlinedTextField(
             value = email,
             onValueChange = { email = it },
-
+            label = { Text("Email") },
             modifier = Modifier.fillMaxWidth(),
             keyboardOptions = KeyboardOptions(
                 keyboardType = KeyboardType.Email,
@@ -100,14 +100,7 @@ fun SignUpScreen(onSignUpSuccess: () -> Unit, navController: NavHostController) 
         Spacer(modifier = Modifier.height(8.dp))
 
         // Confirm password field
-        OutlinedTextField(
-            value = confirmPassword,
-            onValueChange = { confirmPassword = it },
-            label = { Text("Confirm Password") },
-            modifier = Modifier.fillMaxWidth(),
-            keyboardOptions = KeyboardOptions(
-                keyboardType = KeyboardType.Password,
-                imeAction = ImeAction.Done
+
             ),
             keyboardActions = KeyboardActions(
                 onDone = {
