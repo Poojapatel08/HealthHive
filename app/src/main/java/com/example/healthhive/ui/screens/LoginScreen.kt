@@ -72,8 +72,6 @@ fun LoginScreen(onLoginSuccess: () -> Unit, onSignUp: () -> Unit) {
                     isLoading = false
                     if (task.isSuccessful) {
                         onLoginSuccess()
-                    } else {
-                        Toast.makeText(context, "Authentication Failed", Toast.LENGTH_SHORT).show()
                     }
                 }
             } else {
